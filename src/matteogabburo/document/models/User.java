@@ -30,6 +30,8 @@ public class User implements Serializable {
 	private String surname;
 	@Column(name = "telephone")
 	private String telephone;
+	@Column(name = "passwd")
+	private String passwd;
 
 	@OneToMany(mappedBy = "id_user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Health> healthList;
@@ -112,4 +114,13 @@ public class User implements Serializable {
 		this.cures = cures;
 	}
 
+	public String getPasswd() {
+		return passwd;
+	}
+
+	public void setPasswd(String passwd) {
+		this.passwd = passwd;
+	}
+
+	
 }
