@@ -7,9 +7,9 @@ import javax.persistence.Persistence;
 
 public class Dao {
 	
-	private EntityManagerFactory emf;
+	public EntityManagerFactory emf;
 
-    private Dao()
+    public Dao()
     {
         if (emf!=null) {
             emf.close();
