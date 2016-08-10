@@ -28,4 +28,8 @@ public interface LocalDB_interface {
 	@WebMethod(operationName="delete_user")
     @WebResult(name = "User")
 	User delete_user(User user);	
+	
+	@WebMethod(operationName="create_user")
+    @WebResult(name = "User")
+	User create_user(User user);	
 }

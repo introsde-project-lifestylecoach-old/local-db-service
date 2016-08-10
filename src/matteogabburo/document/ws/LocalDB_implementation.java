@@ -2,6 +2,7 @@ package matteogabburo.document.ws;
 
 import javax.jws.WebService;
 
+import matteogabburo.document.dao.UserDao;
 import matteogabburo.document.models.User;
 
 @WebService(endpointInterface = "matteogabburo.document.ws.LocalDB_interface", serviceName="local-db-service")
@@ -9,8 +10,8 @@ public class LocalDB_implementation implements LocalDB_interface{
 
 	@Override
 	public User get_user_by_id(Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		UserDao dao = new UserDao();
+		return dao.getUserById(id);
 	}
 
 	@Override
@@ -21,14 +22,21 @@ public class LocalDB_implementation implements LocalDB_interface{
 
 	@Override
 	public User update_user(User user) {
-		// TODO Auto-generated method stub
-		return null;
+		UserDao dao = new UserDao();
+		return dao.update(user);
 	}
 
 	@Override
 	public User delete_user(User user) {
-		// TODO Auto-generated method stub
-		return null;
+		UserDao dao = new UserDao();
+		return dao.delete(user);
 	}
+
+	@Override
+	public User create_user(User user) {
+		UserDao dao = new UserDao();
+		return dao.save(user);
+	}
+
 
 }
