@@ -1,11 +1,11 @@
-package matteogabburo.document.ws;
+package servicelocaldb.document.ws;
 
 import javax.jws.WebService;
 
-import matteogabburo.document.dao.UserDao;
-import matteogabburo.document.models.User;
+import servicelocaldb.document.dao.UserDao;
+import servicelocaldb.document.models.User;
 
-@WebService(endpointInterface = "matteogabburo.document.ws.LocalDB_interface", serviceName="local-db-service")
+@WebService(endpointInterface = "servicelocaldb.document.ws.LocalDB_interface", serviceName="local-db-service")
 public class LocalDB_implementation implements LocalDB_interface{
 
 	@Override

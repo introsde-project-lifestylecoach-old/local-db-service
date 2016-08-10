@@ -1,4 +1,4 @@
-package matteogabburo.document.dao;
+package servicelocaldb.document.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

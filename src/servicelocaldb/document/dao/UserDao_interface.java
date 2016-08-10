@@ -1,6 +1,6 @@
-package matteogabburo.document.dao;
+package servicelocaldb.document.dao;
 
-import matteogabburo.document.models.User;
+import servicelocaldb.document.models.User;
 
 public interface UserDao_interface {
 	public User save(User user);

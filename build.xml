@@ -54,7 +54,7 @@
 	<property name="web.dir" value="." />
 	<property name="webcontent.dir" value="WebContent" />
 	<property name="project.name" value="local-db-service"/>
-	<property name="startclass.name" value="matteogabburo.document.endpoint.LocalDB_Publisher"/>
+	<property name="startclass.name" value="servicelocaldb.document.endpoint.LocalDB_Publisher"/>
 	<!-- ================================= 
 	          target: resolve downloads the dependencies to your lib folder              
 	================================= -->

@@ -1,4 +1,4 @@
-package matteogabburo.document.endpoint;
+package servicelocaldb.document.endpoint;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -6,7 +6,7 @@ import java.net.URISyntaxException;
 
 import javax.xml.ws.Endpoint;
 
-import matteogabburo.document.ws.LocalDB_implementation;
+import servicelocaldb.document.ws.LocalDB_implementation;
 
 public class LocalDB_Publisher {
 

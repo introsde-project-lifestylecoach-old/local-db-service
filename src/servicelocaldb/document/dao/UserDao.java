@@ -1,9 +1,9 @@
-package matteogabburo.document.dao;
+package servicelocaldb.document.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
-import matteogabburo.document.models.User;
+import servicelocaldb.document.models.User;
 
 public class UserDao extends Dao implements UserDao_interface{
 

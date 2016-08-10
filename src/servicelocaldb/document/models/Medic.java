@@ -1,4 +1,4 @@
-package matteogabburo.document.models;
+package servicelocaldb.document.models;
 
 import java.io.Serializable;
 

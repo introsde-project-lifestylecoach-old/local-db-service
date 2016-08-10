@@ -3,14 +3,14 @@
              xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     <persistence-unit name="lifestylecoach_localdb-jpa">
-        <class>matteogabburo.document.models.Activity</class>
-        <class>matteogabburo.document.models.Cure</class>
-        <class>matteogabburo.document.models.Goal</class>
-        <class>matteogabburo.document.models.Health</class>
-        <class>matteogabburo.document.models.Medic</class>
-        <class>matteogabburo.document.models.User</class>
-        <class>matteogabburo.document.models.UserActivity</class>
-        <class>matteogabburo.document.models.UserGoal</class>
+        <class>servicelocaldb.document.models.Activity</class>
+        <class>servicelocaldb.document.models.Cure</class>
+        <class>servicelocaldb.document.models.Goal</class>
+        <class>servicelocaldb.document.models.Health</class>
+        <class>servicelocaldb.document.models.Medic</class>
+        <class>servicelocaldb.document.models.User</class>
+        <class>servicelocaldb.document.models.UserActivity</class>
+        <class>servicelocaldb.document.models.UserGoal</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
             <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:lifestylecoach_localdb.sqlite" />
