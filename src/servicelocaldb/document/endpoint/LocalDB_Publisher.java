@@ -29,5 +29,4 @@ public class LocalDB_Publisher {
         System.out.println("--> Published. Check out "+endpointUrl+"?wsdl");
         Endpoint.publish(endpointUrl, new LocalDB_implementation());
     }
-	
 }
